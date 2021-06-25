@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--1. BOOTSTRAP CSS LINK -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="myJS.js"></script>
+    <title>BOOTSTARP PROJECT - MY ARTICLE-RESULTS AND DISCUSSIONS</title>
+  </head>
+  <!--BODY SECTION-->
+  <body>
+    <div class="bg-success mb-4">
+      <!--bg:background color.-->
+      <div class="container">
+        <div class="row">
+          <!--NAVIGATION BAR-->
+          <nav class="col navbar navbar-expand-lg navbar-warning">
+            <a class="navbar-brand" href="article.html">
+              <img src="images/logo.png" width="200" height="90" alt="logo"
+            /></a>
+
+            <!--Küçük yaptığında sağda bir menu buttonu çıkacak. ve istediğin kısımlar burada görüntülenecek. toggler bu amaçla kullanılır. Bir buton eklemek için.-->
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--NAVBAR CONTENT-->
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="article.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="article A.html">Abstract</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="article 1.html">Introduction</a>
+                </li>
+                <!-- ***********-->
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="article 2.html"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Materials and Methods</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="article 2.html"><b>⁎ Materials</b></a>  
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="article 2.html"><b>⁎ Synthesis of Nanostructures</b></a>
+                <a class="dropdown-item" href="article 2.html">&nbsp;Synthesis of Fe<sub>3</sub>O<sub>4</sub>  Nanoparticles</a>
+                <a class="dropdown-item" href="article 2.html">&nbsp;Preparation of GO Nanosheets</a>
+                <a class="dropdown-item" href="article 2.html">&nbsp;Preparation of GO/Fe<sub>3</sub>O<sub>4</sub>  Nanocomposite</a>
+                <a class="dropdown-item" href="article 2.html">&nbsp;Activation of the Supports</a>
+                <a class="dropdown-item" href="article 2.html">&nbsp;Lipase Immobilization onto Activated Nanoparticles</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="article 2.html" ><b>⁎ Enzyme Activity Measurement</b></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="article 2.html"><b>⁎ Enantioselective Transesterif ication of 1-Phenyl Ethanol with Immobilized Lipases</b></a>
+              </div>
+            </li>
+                <!-- ***********-->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="article 3.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Results and Discussions</a
+                  >
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="article 3.html"><b>⁎ Characterization of the Nanostructures and Immobilized Lipases</b></a>
+                    <a class="dropdown-item" href="#section-r1">&nbsp;Fourier Transform Infrared Spectroscopy Analysis</a>
+                    <a class="dropdown-item" href="#section-r2">&nbsp;Scanning Electron Microscopy Analysis</a>
+                    <a class="dropdown-item" href="#section-r3">&nbsp;The Effect of pH and Temperature on Immobilization</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#section-r4"><b>⁎ The Effect of Crosslinkers Concentration on the Catalytic Activity</b></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#section-r5"><b>⁎ The Effect of Surfactants on Enzyme Activity</b></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#section-r6"><b>⁎ Enantioselective Transesterif ication of 1-Phenyl Ethanol with Immobilized Lipases</b></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#section-r7"><b>⁎ Operational Stability</b></a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="article 4.html">Conclusion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="article 5.html">References</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-4">
+        <h1 id="section-r1">Results and Discussions</h1>
+        <h2 id="section-r1">⁎ Characterization of the Nanostructures and Immobilized Lipases</h2>
+        <!--SECTION 1-->
+        <h3 id="section-r1">⭒ Fourier Transform Infrared Spectroscopy Analysis</h3>
+        <p>FTIR was utilized to analyze the efficiency of covalent immobilization.<a href="#figure r1" id="figure-link"> Figure 1a.</a> shows the
+            FTIR spectra of pure GO and enzyme immobilized GO. The spectrum of GO shows the
+            broadband at 3410 cm<sup>-1</sup> that assigned to O-H stretching vibrations of the C-OH groups, the
+            band at 1737 cm<sup>-1</sup> shows C=O stretching vibrations of the carbonyl and carboxylic groups and
+            the absorption band at 1620 cm<sup>-1</sup> because of the existence of C=C or demonstrates the skeletal
+            vibrations due to unoxidized graphitic domains [45, 46]. The spectra of Cal-B immobilized
+            GO clearly indicate the following bands: 3425 cm<sup>-1</sup> (O-H, NH<sub>2</sub>) due to water and Cal-B,
+            1647 cm<sup>-1</sup> (C=O) corresponding to Amid I, 1550 cm<sup>-1</sup> corresponding to Amid II bands of C-N
+            stretching vibrations and N-H bending. <a href="#figure r1" id="figure-link"> Figure 1b.</a> shows FTIR spectra of pure Fe<sub>3</sub>O<sub>4</sub> and lipase immobilized Fe<sub>3</sub>O<sub>4</sub>. It can be seen that before lipase immobilization onto Fe<sub>3</sub>O<sub>4</sub>, the Fe-O
+            vibrations of Fe<sub>3</sub>O<sub>4</sub> centered at 695 cm<sup>-1</sup>, after Cal-B immobilization this peak shifted to
+            650 cm<sup>-1</sup> due to the interaction of enzyme and Fe<sub>3</sub>O<sub>4</sub> nanoparticles. The large and broad band
+            is detected at 3423 cm<sup>-1</sup> demonstrating the existence of both the OH and NH<sub>2</sub> groups of water
+            and Cal-B molecules [32]. Amide I band is the most intense absorption band of proteins that
+            gives a peak at 1643 cm<sup>-1</sup>. It is caused by the stretching vibrations of the C-N (from 10% to
+            20%) and C=O groups (from 70 to 85%) [47]. Amid II band is attributed to the N-H bending
+            and C-N stretching vibrations at 1550 cm<sup>-1</sup>. The presence of several characteristic peaks of
+            GO/Fe<sub>3</sub>O<sub>4</sub> such as Fe-O vibrations (573 cm<sup>-1</sup>), C–OH stretching vibration (1217 cm<sup>-1</sup>) [48],
+            aromatic C=C stretching (1600 cm<sup>-1</sup>) and oxygen stretching vibrations (3440 cm<sup>-1</sup>) show the successful preparation of GO/Fe<sub>3</sub> O<sub>4</sub> nanocomposite <a href="#figure r1" id="figure-link">(Fig. 1c)</a>. After enzyme immobilized onto
+            the support, the bands corresponded to chemical structure of enzyme was appeared at
+            1061 cm<sup>-1</sup> (C-N stretching vibrations for aliphatic amines), 1550 cm<sup>-1</sup> (Amid II),
+            1647 cm<sup>-1</sup> (Amid I band), 2353–2357 cm<sup>-1</sup> (the adsorption doublet band of CO<sub>2</sub>), and
+            3440 cm<sup>-1</sup> (O-H and N-H absorption). The spectroscopic examination verifies that the enzyme
+            Cal-B was successfully immobilized on the surface of supports.</p>
+
+             <!--SECTION 2-->
+        
+        <h3 id="section-r2">⭒ Scanning Electron Microscopy Analysis</h3>
+        <p>Figure 2 shows the SEM images of the supports before and after enzyme immobilization. The
+            smooth and regular surface of initial GO/Fe<sub>3</sub> O<sub>4</sub> and Fe<sub>3</sub> O<sub>4</sub>support can be seen in <a href="#figure r2" id="figure-link"> Fig. 2a, c</a>
+            respectively. After lipase immobilized, the irregular surface of the supports can be visualized in
+            <a href="#figure r2" id="figure-link">Fig. 2b, d</a> shows that the supports are filled unevenly by the lipase.</p>
+
+            <!--FIGURE-->
+
+            <details id="figure r1" ><summary>Figure 1-a, b, c</summary>
+                <figure>
+                  <img src="images/result1.png" class="images4">
+                </figure>
+                </details>
+                <details id="figure r2" ><summary>Figure 2-a, b, c, d</summary>
+                    <figure>
+                      <img src="images/result2.png" class="images5">
+                    </figure>
+                    </details>
+              
+  <!--SECTION 3-->
+        <h3 id="section-r3">⭒ The Effect of pH and Temperature on Immobilization</h3>
+        <p>One of the most important parameters that cause alteration of the enzyme activity in aqueous solutions is pH. 
+            The pH change of the medium during immobilization affects the tertiary structure and active site of the enzyme molecules [49]. 
+            To determine the
+            impact of pH on immobilization, activation of the supports (with crosslinkers, 30 °C,
+            4 h) and the immobilization of Cal-B onto the supports (30 °C, 12 h) were carried out
+            at various pH values (pH 5–8). The effect of pH on the immobilization protocol is
+            shown in <a href="#figure r3" id="figure-link"> Fig. 3a.</a> The highest enzyme activity was obtained at pH 6 (13.29 U/mg) for
+            GO-GLA-CalB enzyme, at pH 7 (11.85 U/mg) for Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB and at pH 8
+            (12.96 U/mg) for GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB.
+            When these values are compared with the free enzyme activity (18.52 U/mg, pH 6,
+            37 °C) in the optimum conditions, it can be seen that the activities of three immobilized
+            enzymes decreased. The relative activities of immobilized samples are 72%, 64%, and
+            70% for GO-GLA-CalB, Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB, and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB, respectively. The
+            pH values demonstrate that there is no significant conformational change in the GO-GLA-CalB (pH 6) and Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB (pH 7) enzymes during covalent binding</p>
+            <!--FIGURE-->
+            <details id="figure r3" ><summary>Figure 3-a, b</summary>
+                <figure>
+                  <img src="images/result3.png" class="images6">
+                </figure>
+                </details>
+                <p>However, the results represent that lipase immobilized onto  GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB exhibits higher resistance to pH (pH 8.0). Miletic et al. [50] found similar result in their
+                    study for Cal-B immobilized on polystyrene nanoparticles. In order to observe the effect
+                    of reaction temperature on immobilization, the activation of the supports and the immobilization protocol were carried out at different temperatures (30–60 °C, pH 7.0), and the
+                    results are shown in  <a href="#figure r3" id="figure-link"> Fig. 3b. </a>The optimum reaction temperature of the free lipase is
+                    30 °C, while the immobilized enzymes represent the best catalytic activities at 40 °C. At
+                    this temperature, the relative activities of GO-GLA-CalB, Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB, and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB are 74.2%, 81.4%, and 75.15%, respectively. Activity recovery of Candida rugosa enzyme immobilized onto GO/Fe<sub>3</sub>O<sub>4</sub> nanocomposite was obtained as
+                    64.9% by Xie and Huang [37]. According to these results, their resistance to thermal
+                    denaturation is better than the free lipase. As the result of the immobilization, molecules
+                    have limited conformational mobility, thus stability is increased against various
+                    deactivating forces. Similar values were obtained by Y ılmaz et al. [51] when the
+                    Candida rugosa lipase (CRL) was encapsulated within chemically inert sol-gel composite matrixes. The main reason of the improved stabilitiy is the covalent bonds between
+                    the enzyme and the matrix, which restrict the conformational mobility of the molecules
+                    and cause the rigidity and stability of the enzyme to increase [52].
+                    The reaction time is very important for enzyme immobilization. If there is an insufficient
+                    interaction, the enzyme cannot bind on the support or the enzyme may be denatured because of
+                    a longer duration of the interaction.
+                    <a href="#figure r4" id="figure-link"> Figure 4</a> shows the catalytic activity of immobilized lipases prepared at various
+                    immobilization times. As seen in  <a href="#figure r4" id="figure-link"> Fig. 4.</a>, it is clear that the catalytic activities of the
+                    three immobilized enzymes are different for all immobilization times. Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB shows the best activity for 16 h. At this time, the catalytic activity of Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB is 13.73 U/mg. However, the catalytic activities decreased after 16 h. This phenomenon can be related to denaturation of lipases at a long time. Optimum
+                    immobilization time for GO-GLA-CalB and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB is 12 h at which
+                    the activities are 14.17 U/mg and 13.12 U/mg, respectively. Longer time slightly
+                    reduced the immobilization yield on the support. It could be concluded that the</p>
+
+                    <details id="figure r4" ><summary>Figure 4</summary>
+                        <figure>
+                          <img src="images/result4.png" class="images7">
+                        </figure>
+                        </details>
+                        <p>immobilized enzymes have different structures and show different activities at different immobilization times.</p>
+        
+                      
+                      <h2 id="section-r4">⁎ The Effect of Crosslinkers Concentration on the Catalytic Activity</h2>  
+                      <p>Enzyme immobilization by covalent binding generally includes two steps. First, the
+                        support surface is activated using bifunctional agents, and then the enzyme is
+                        immobilized on the activated surface covalently. Crosslinkers, often used in covalent
+                        binding, behave as a bridge between the support material and enzyme molecules [53].
+                        In this part of the study, activation of the supports was carried out with varying
+                        quantities of GLA and EPH (150, 200, 250, and 300 mM) for 4 h at 30 °C. Then, the
+                        free enzyme was immobilized onto these activated supports as previously mentioned.
+                        When GO was activated by glutaraldehyde, with the increasing of glutaraldehyde
+                        concentration the activity of immobilized enzyme increased, after 250 mM (2.36%,
+                        v/v) of glutaraldehyde concentration the activity decreased. When Fe<sub>3</sub>O<sub>4</sub> was activated
+                        with glutaraldehyde, the highest immobilized enzyme activity was obtained when
+                        300 mM (2.83%, v/v) of glutaraldehyde was used. For GO/Fe<sub>3</sub>O<sub>4</sub> support material,
+                        200 mM (1.90%, v/v) of glutaraldehyde represented the highest enzyme activity, after
+                        200 mM (1.90%, v/v) of glutaraldehyde the activity decreased. The three immobilized
+                        lipases gain different conformations from each other after the immobilization protocol;
+                        therefore, their highest activities are detected at different glutaraldehyde concentrations. However, for each sample, with the increasing GLA concentration, the enzyme
+                        activity increased because of the increased concentration of aldehyde groups on the
+                        support surfaces. On the other hand, after a certain GLA concentration, the activities
+                        of the immobilized preparations were decreased, at a high GLA concentration, the
+                        multiple chemical bonds might be generated between the support material and the
+                        enzyme molecules [54]. When the carriers were activated with epichlorohydrin at
+                        different concentrations, it was observed that enzyme activities were lower than glutaraldehyde <a href="#table 1" id="figure-link">(Table 1)</a>. The results prove glutaraldehyde is more effective than
+                        epichlorohydrin on the enzymatic activity.</p>
+                     
+                        <h2 id="section-r5">⁎ The Effect of Surfactants on Enzyme Activity</h2>  
+                        <p>The existence of surfactants during immobilization increases the thermal and chemical stability
+                            of enzymes [55, 56]. The effect of increasing concentration of non-ionic surfactants Triton X-
+                            100 and Tween 80 were analyzed in this study, and the results were presented in <a href="#table 2" id="figure-link">Table 2</a>. In
+                            the same conditions, without the use of surfactants, the activity of enzyme immobilized on GO,
+                            Fe<sub>3</sub>O<sub>4</sub> and GO/Fe<sub>3</sub>O<sub>4</sub> were 15.33, 14.26, and 13.47 U/mg, respectively <a href="#table 1" id="figure-link">(Table 1)</a>. When 30 mM (3.7% v/v) and 40 mM (4.9%, v/v) of Tween 80 were used, the highest immobilized
+                            enzyme activities were 15.03, 14.72, and 13.56 U/mg for GO-GLA-CalB, Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB,
+                            and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB, respectively. The higher concentration of the surfactants caused
+                            the decrease in the activity of all three immobilized enzymes. The similar behavior was also
+                            observed when Triton X-100 was used as the surfactant. However, the increase in concentration for both surfactants did not have a significant effect on immobilized enzyme activities.
+                            There are two possible considerations to explain why there is no significant change in enzyme
+                            activity: (i) The interaction time (45 min) between the surfactants, and the support materials is
+                            insufficient. (ii) The use of surfactants during the activation process of the support material
+                            rather than the enzyme immobilization process.</p>
+
+                            <h2 id="section-r6">⁎ Enantioselective Transesterif ication of 1-Phenyl Ethanol with Immobilized Lipases</h2>  
+                            <p>In this study, Cal-B immobilized onto three nanostructures, and the immobilized lipases,
+                              Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB, GO-GLA-CalB, and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB, catalyzed the
+                                transesterification of 1-phenyl ethanol with vinyl acetate when used in hexane with the activity
+                                of 15.33 U/mg, 14.26 U/mg, and 13.47 U/mg, respectively <a href="#table 1" id="figure-link">(Table 1)</a>. Enantioselective
+                                transesterification of 1-phenylethanol assayed for three immobilized enzymes for different
+                                reaction times. As shown in <a href="#figure r5" id="figure-link">Fig. 5a, b, and c</a> enantioselectivity is considerably influenced by
+                                the different immobilized enzymes. Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB showed poor enantioselectivity (ee% =
+                                23.00, E = 3.77) with 31.36% conversion in 15 h. Significant changes observed when lipases
+                                GO-GLA-CalB and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB catalyzed the reaction. The highest values of
+                                enantioselectivity (E = 507.74, 375.77), enantiomeric excess (ee > 99%, 94.32%), and conversion (c = 50.73%, 49.02%) were obtained when GO-GLA-CalB and GO/Fe<sub>3</sub>O<sub>4</sub>-GLA-CalB
+                                catalyzed the reaction, respectively. This is probably due to the fact that enzymes with different
+                                conformations and physical properties that obtained by the immobilization of Cal-B onto</p>
+                                <p  style="text-align: center;"><b>Table 1</b> The effect of glutaraldehyde and epichlorohydrin concentrations on the activity of the immobilized enzyme</p>
+                                   
+                                    <table id="table 1">
+                                      <tr >
+                                        <th >Immobilized enzyme activity, U/mg</th>
+                                        <th >GO-CalB</th> 
+                                        <th >Fe<sub>3</sub>O<sub>4</sub>-CalB</th>
+                                        <th >GO/Fe<sub>3</sub>O<sub>4</sub>-CalB</th>
+                                      </tr>
+                                      <tr>
+                                        <th >Cross linker concentration, mM</th>
+                                        <th>GLA &nbsp; &nbsp; &nbsp; EPH</th>
+                                        <th > GLA &nbsp; &nbsp; &nbsp; EPH</th>
+                                        <th >GLA &nbsp; &nbsp; &nbsp; EPH</th>
+                                      </tr>
+                                      <tr>
+                                        <td>150</td>
+                                        <td>13.47 &nbsp; &nbsp; &nbsp; 12.28</td>
+                                        <td>13.46 &nbsp; &nbsp; &nbsp; 11.81</td>
+                                         <td>13.03 &nbsp; &nbsp; &nbsp; 11.70</td>
+                                      </tr>
+                                      <tr>
+                                        <td>200</td>
+                                        <td>14.45 &nbsp; &nbsp; &nbsp; 13.44</td>
+                                        <td>13.83 &nbsp; &nbsp; &nbsp; 12.98</td>
+                                         <td>13.47 &nbsp; &nbsp; &nbsp; 12.41</td>
+                                      </tr>
+                                      <tr>
+                                        <td>250</td>
+                                        <td>15.33 &nbsp; &nbsp; &nbsp; 13.59</td>
+                                        <td>14.26 &nbsp; &nbsp; &nbsp; 12.46</td>
+                                         <td>13.12 &nbsp; &nbsp; &nbsp; 12.53</td>
+                                      </tr>
+                                       <tr>
+                                        <td>300</td>
+                                        <td>15.24 &nbsp; &nbsp; &nbsp; 14.22</td>
+                                        <td>14.45 &nbsp; &nbsp; &nbsp; 13.16</td>
+                                         <td>11.85 &nbsp; &nbsp; &nbsp; 11.69</td>
+                                      </tr>
+                                    </table>
+                              <hr>
+                                    <p style="text-align: center;"><b>Table 2</b> The effect of glutaraldehyde and epichlorohydrin concentrations on the activity of the immobilized
+                                        enzyme</p>
+                                       
+                                        <table  id="table 2">
+                                          <tr >
+                                            <th >Immobilized enzyme activity, U/mg</th>
+                                            <th >GO-CalB</th> 
+                                            <th >Fe<sub>3</sub>O<sub>4</sub>-CalB</th>
+                                            <th >GO/Fe<sub>3</sub>O<sub>4</sub>-CalB</th>
+                                          </tr>
+                                          <tr>
+                                            <th>Surfactant concentration, mM</th>
+                                            <th>Tween 80 &nbsp; &nbsp; &nbsp; Triton X-100</th>
+                                            <th>Tween 80 &nbsp; &nbsp; &nbsp; Triton X-100</th>
+                                            <th>Tween 80 &nbsp; &nbsp; &nbsp; Triton X-100</th>
+                                          </tr>
+                                          <tr>
+                                            <td>10</td>
+                                            <td>14.45 &nbsp; &nbsp; &nbsp; 13.99</td>
+                                            <td>13.92 &nbsp; &nbsp; &nbsp; 13.83</td>
+                                             <td>13.03 &nbsp; &nbsp; &nbsp; 13.29</td>
+                                          </tr>
+                                          <tr>
+                                            <td>20</td>
+                                            <td>14.57 &nbsp; &nbsp; &nbsp; 14.00</td>
+                                            <td>14.35 &nbsp; &nbsp; &nbsp; 13.52</td>
+                                             <td>13.33 &nbsp; &nbsp; &nbsp; 13.47</td>
+                                          </tr>
+                                          <tr>
+                                            <td>30</td>
+                                            <td>15.03 &nbsp; &nbsp; &nbsp; 14.57</td>
+                                            <td>14.72 &nbsp; &nbsp; &nbsp; 14.04</td>
+                                             <td>13.46 &nbsp; &nbsp; &nbsp; 13.53</td>
+                                          </tr>
+                                           <tr>
+                                            <td>40</td>
+                                            <td>14.58 &nbsp; &nbsp; &nbsp; 14.63</td>
+                                            <td>14.34 &nbsp; &nbsp; &nbsp; 14.35</td>
+                                             <td>13.56 &nbsp; &nbsp; &nbsp; 13.70</td>
+                                          </tr>
+                                          <tr>
+                                            <td>50</td>
+                                            <td>14.04 &nbsp; &nbsp; &nbsp; 13.44</td>
+                                            <td>14.04 &nbsp; &nbsp; &nbsp; 14.23</td>
+                                             <td>12.71 &nbsp; &nbsp; &nbsp; 13.34</td>
+                                          </tr>
+                                        </table>
+                                        <hr>
+                                <p>different support materials. Since the enzyme is attached directly to the support material, the
+                                    supports having different morphological and physical properties affect the catalytic properties
+                                    of the enzyme [26, 57]. Thus, the support material used in the immobilization affects the
+                                    biological activity of the enzyme by altering the properties of the enzyme [58].</p>
+                                    <h2 id="section-r7">⁎ Operational Stability</h2>  
+                                    <p>When the best immobilization conditions, support material, and immobilization method are
+                                        selected, the activity and the stability of the immobilized enzyme relative to the free enzyme</p>
+                                        <details id="figure r5" ><summary>Figure 5-a, b, c</summary>
+                                            <figure>
+                                              <img src="images/result5.png" class="images5">
+                                            </figure>
+                                            </details>
+
+                                            <details id="figure r6" ><summary>Figure 6</summary>
+                                                <figure>
+                                                  <img src="images/result6.png" class="images2">
+                                                </figure>
+                                                </details>
+                                                <p>may increase. Recovery and repeated reusability of immobilized enzymes in catalytic systems
+                                                    are another important parameters. To determine the reuse of immobilized enzymes subsequent
+                                                    cycles for three immobilized enzymes were carried out separately. Each of them was used for
+                                                    different reaction conditions, but each cycle was carried out on the same conditions of reactions. After the first and further reaction cycles of the kinetic resolution of 1- phenylethanol, the immobilized lipases were regained from the reaction medium with the use of a magnet or via filtration and washed 3 times with hexane. Then, they were dried to remove the organic solvent, and they were used in the new reaction system. The experiment
+                                                    was repeated up to five reaction cycles with the same immobilized lipases.
+                                                    <a href="#figure r6" id="figure-link">Figure 6</a> shows the reusability of immobilized enzymes on Fe<sub>3</sub>O<sub>4</sub>, GO and GO/Fe<sub>3</sub>O<sub>4</sub>. It is seen that there is no significant decrease in enantiomeric ratios and this enzymatic process can
+                                                    be repeated five times without important loss of enantioselectivity.</p>
+                            <button onclick="topFunction()"  id="myBtn" title="Go to top">Top</button>
+      </div>
+    </div>
+</div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- 2. LINK FOR JQUERY-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--3. LINK FOR Popper.js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!--4. LINK FOR BOOTSTRAP JS-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
