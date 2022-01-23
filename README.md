@@ -7,7 +7,7 @@ https://gulcanc.github.io/MY-PROJECT/
 This is my personal project using Sass, CSS, Responsive Design and Bootstrap 4. 
 It's amazing experience with responsive navbar, submenu/drop down menu in navbar, card, and carousel.
 
-# The Technologies/Technics Used:
+# The Technologies/Techniques Used:
 
 *Bootstrap 4
 
