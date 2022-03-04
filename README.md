@@ -1,12 +1,12 @@
 # MY BOOTSTRAP PROJECT
 
 ### :pen: Go to the Project Page# :pen:
- :world: https://gulcanc.github.io/MY-PROJECT/
+ :link: https://gulcanc.github.io/MY-PROJECT/
 
 ### :pen: Go to the My Article
 In this project, I built a web site to explain my scientific publication.
 
- :world: https://link.springer.com/article/10.1007/s12010-020-03443-2
+ :link: https://link.springer.com/article/10.1007/s12010-020-03443-2
 
 ### :pen: About the Project
 This is my personal project using Sass, CSS, Responsive Design and Bootstrap 4. 
