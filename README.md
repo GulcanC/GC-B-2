@@ -1,6 +1,6 @@
 # MY BOOTSTRAP PROJECT
 
-### :pen: Go to the Project Page# :pen:
+### :🔖: Go to the Project Page
  :link: https://gulcanc.github.io/MY-PROJECT/
 
 ### :pen: Go to the My Article
